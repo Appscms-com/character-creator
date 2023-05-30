@@ -8184,7 +8184,7 @@ window.femaleFormList = [
 // USES DOM
 
 const hamburger = () =>
-  document.querySelector("#horizontal").classList.toggle("hide");
+  // document.querySelector("#horizontal").classList.toggle("hide");
 function showHandPosition(selectedOption, previousHolding) {
   // TODO
   // Check for male/femal template
