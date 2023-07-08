@@ -1,102 +1,49 @@
----
-name: Character-creator
-title: Appscms-character-creator
-email: marketing@Appscms.com
-address: Delhi
-phone: ''
-tagline: Tagline
-description: Description
-logo: /assets/images/logo.webp
-pwalogo: /assets/images/logo.webp
-baseurl: ''
-pwa: true
-permalink: /blog/:title
-author_name: Harshit Raghav
-alternateName: alternateName
-url: https://characterCreator.org
-siteurl: https://characterCreator.org
-copyright_text: © 2020 Math-World
-facebook_username: https://www.facebook.com/
-twitter_username: https://twitter.com/
-slack_username: https://slack.com/intl/en-in/
-favicon: /assets/images/logo.webp
-paginate: '12'
-paginate_path: '/blog/page:num/'
-keyboard: "Blogpost,Blogger"
-production_google_analytics: 'UA-198209937-30'
-development_google_analytics: 'Your_GA_ID'
+name: Safeimagekit.com
+title: Safest website for your image processing needs. No files sent to server.
+email: support@safeimagekit.com
+description: Process your images safely, online for free using safeimagekit.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://safeimagekit.com # the base hostname & protocol for your site, e.g. http://example.com
+siteurl: https://safeimagekit.com
+twitter_username: jekyllrb
+github_username: jekyll
+favicon: /picture.webp
+logo: /picture.webp
+pwalogo: /picture.webp
+paginate: "12"
+paginate_path: "/blog/page:num/"
+alternateName: safeimagekit
 theme: appscms-tools-theme
-sass:
-  sass_dir: _sass
-  style: compressed
-markdown: kramdown
+pwa: true
+developerKey: AIzaSyD4wrfi4Ga-uTH2O4f6DFEhby1I68UQvN8
+clientId: 862003477277-6c2jd8ggqvqpmbae6671umo1c83eidug.apps.googleusercontent.com
+appId: 862003477277
+internationalizationall: true
+dropboxapikey: gdmcpa9nvv4xmih
+safeui: false
+totalVisitors: 100,000
+count_of_words_in_headings: 15
+removeJquery: true
+removeBootstrapJs: true
+newFeatureBox: true
+monumetricId: true
+# Build settings
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
-disqus:
-  shortname: appscms-com
-hero: product_fixed_image
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules
+  - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-whitelist:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-include-cache
-getform_id:
-mailchimp:
-  user-id:
-  list-id:
-copyright_text: © 2020 stepscalculator
-company_url: https://stepscalculator.com
-google_site_verificatcomn:
-bing_site_verificatcomn:
-yandex_site_verificatcomn:
-naver_site_verificatcomn:
-removeJquery: true
-removeBootstrapJs: true
-twitter:
-  username:
-facebook:
-  username:
-  app_id:
-  publisher:
-og_image:
-social:
-  type:
-  name:
-  links:
-analytics:
-  provider: false
-  google:
-    tracking_id:
-    anonymize_ip:
-timezone:
-noFaqsList:
-- hi
-- id
-- da
-- de
-- es
-- fr
-- it
-- nl
-- pl
-- pt
-- sv
-- vi
-- tr  
-- ru
-- uk
-- ar
-- hi
-- ko
-- ja
-- zh
-- zh-tw
+production_google_analytics: "UA-179965937-20"
+development_google_analytics: ""
+
+permalink: /blog/:title

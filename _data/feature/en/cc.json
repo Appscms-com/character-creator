@@ -1,5 +1,62 @@
 {
-  "H1": "Online character creator",
-  "H2": "Make Characters online for free",
-  "color": "blue"
+  "H1": "Free Character Creator Online Tool",
+  "H2": "Customize your own character with the character creator ",
+  "TITLE": "Character Creator - Design Unique Avatars",
+  "META": "Create stunning avatars effortlessly using our free character creator tool. Customize the features and bring your virtual characters to life. Give it a try today!",
+  "height": "300px",
+  "color": "#BD081C",
+  "keyword": "character-creator",
+  "megaMenu": {
+    "nav-link-name": "Tools",
+    "dropdown": [
+      {
+        "categoryName": "Recommended Pages",
+        "links": [
+          {
+            "name": "character creator",
+            "url": "/",
+            "hover": "blue"
+          }
+        ]
+      }
+    ]
+  },
+  "TEXTUAL_CONTENT": [
+    {
+      "priority": 1,
+      "logoUrl": "/assets/bulb.svg",
+      "header": "",
+      "content": ""
+    },
+    {
+      "priority": 1,
+      "logoUrl": "/assets/support.svg",
+      "header": "",
+      "content": ""
+    },
+    {
+      "priority": 1,
+      "logoUrl": "/assets/protect.svg",
+      "header": "",
+      "content": ""
+    },
+    {
+      "priority": 1,
+      "logoUrl": "/assets/easy.svg",
+      "header": "",
+      "content": ""
+    },
+    {
+      "priority": 1,
+      "logoUrl": "/assets/cloud.svg",
+      "header": "",
+      "content": ""
+    }
+  ],
+  "HOW_TO_CONTENT": {
+    "logoImageUrl": "/assets/idea.svg",
+    "heading": "",
+    "steps": []
+  },
+  "FAQ": []
 }
